@@ -1,0 +1,90 @@
+/* Import Bootstrap */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* Body styles */
+
+body {
+  background-color: #e3f2ec;
+}
+
+/* Container styles */
+.cont {
+  margin-top: 100px;
+  max-width: 90%; /* Maximum width for responsiveness */
+  margin: 0 auto; /* Center the container */
+}
+
+/* Button container styles */
+.button {
+  margin-top: 6%;
+  padding-left: 10%;
+  
+}
+
+/* Todo row styles */
+.todo-row {
+  padding: 8px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.todo-row:hover {
+  background-color: #f0d0d0;
+}
+
+/* Todo text styles */
+.todo-text {
+  margin-left: 10px;
+}
+
+/* Completed task styles */
+.completed {
+  text-decoration: line-through;
+}
+
+/* Container for todo list */
+.container {
+  max-width: 500px;
+  margin-top: 20px;
+  background-color: #c7c6c6;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Input field styles */
+.container input[type="text"] {
+  margin-right: 10px; /* Add margin to the right of the input field */
+}
+/* Button styles */
+.btn-small,
+.btn-big,
+.reset-button {
+  font-size: 1rem; /* Reset font size */
+  background-color: rgb(117, 245, 117); /* Set background color to green for all buttons */
+}
+
+.btn-small:hover,
+.btn-big:hover {
+  background-color: #c7c6c6;
+  
+}
+
+/* Make the "Big" button bigger */
+.btn-big {
+  font-size: 1.2rem;
+  width: 100px; /* Adjust button width */
+  height: 100px; /* Adjust button height */
+}
+
+/* Add gap between buttons */
+.button ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  /* Adjustments for smaller screens */
+  .button {
+    margin-top: 20px; /* Adjust margin for smaller screens */
+  }
+}
